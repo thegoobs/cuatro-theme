@@ -1,0 +1,17 @@
+$nav_height: 75px;
+
+$screen_small: 575px;
+$screen_medium: 768px;
+$screen_large: 991px;
+
+body {
+	margin: 0;
+}
+
+.container {
+	margin: 0 150px;
+
+	@media screen and (max-width: $screen_small) {
+		margin: 0 48px;
+	}
+}

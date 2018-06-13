@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Teko:400,600');
+@import url('https://fonts.googleapis.com/css?family=Teko:400,600');
+@font-face {
+	font-family: bookman;
+	src: url(bookman.ttf)
+}
+
 
 $font_header: 'Teko', sans-serif;
-$font_body: 'Montserrat', sans-serif;
+$font_body: bookman, sans-serif;
 
 // Make all things body text
 
@@ -16,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 	margin: 1.414em 0 0.5em;
 	line-height: 1.2;
+	font-weight: 400;
 }
 
 h1 {
@@ -28,3 +34,12 @@ h2 {font-size: 2.369em;}
 h3 {font-size: 1.777em;}
 
 h4 {font-size: 1.333em;}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

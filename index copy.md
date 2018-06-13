@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Page 1
 visible: true
 ---
 
