@@ -15,6 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
 email: your-email@example.com
+address: >-
+  3601 Kyle Crossing
+  Kyle, Texas 78640
+phone: (512) 312-5040
 description: >- # this means to ignore newlines until "baseurl:"
   Cuatro Consultants, Ltd. is a civil engineering/consulting Firm offering a full range of design, permitting, and land development services throughout the Austin metropolitan and Central Texas area.  We serve a diverse Clientele ranging from individuals and small local companies to large national corporations.  We assist our Clients through all phases of their Projects, starting with concept development and ending with construction completion.
 baseurl: "" # the subpath of your site, e.g. /blog

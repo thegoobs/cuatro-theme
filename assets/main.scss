@@ -1,5 +1,13 @@
 ---
 ---
-$hero: url("{{ site.hero[0] }}");
+{% if page.layout == "default" %}
+	$hero: url("{{ site.hero[0] }}");
+{% else %}
+	{% if page.hero %}
+		$hero: url("{{ page.hero }}");
+	{% else %}
+		$hero: url("");
+	{% endif %}
+{% endif %}
 
 @import "cuatro-theme";

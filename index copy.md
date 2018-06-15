@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Page 1
 visible: true
 ---

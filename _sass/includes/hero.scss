@@ -26,6 +26,31 @@
 	}
 }
 
+.hero-container-small {
+	padding-top: $nav_height * 2;
+
+	@media screen and (max-width: $screen_medium) {
+		padding-top: $nav_height * 2;		
+		display: flex;
+	}
+
+	@media screen and (min-width: $screen_medium) {
+		padding-top: $nav_height * 2;
+		display: flex;
+	}
+
+
+	@media screen and (min-width: $screen_large) {
+		padding-top: $nav_height * 2;
+		padding-bottom: 3rem;
+		display: flex;
+	}
+
+	& h1 {
+		color: white;
+	}
+}
+
 .hero-logo {
 	height: 100px;
 	margin: 24px;
