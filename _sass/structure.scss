@@ -11,7 +11,7 @@ body {
 .container {
 	margin: 50px 150px;
 
-	@media screen and (max-width: $screen_small) {
+	@media screen and (max-width: $screen_medium) {
 		margin: 0 48px;
 	}
 }
