@@ -1,0 +1,37 @@
+.contact-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	& div {
+		font-weight: 800;
+		text-align: center;
+		flex: 1;
+		margin: 24px;
+
+		& h3 {
+			margin: 0;
+		}
+	}
+}
+
+.employee-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	text-align: center;
+}
+
+.employee-entry {
+	flex: 1;
+	margin: 24px;
+}
+
+.employee-title {
+	margin: 0;
+}
+
+.employee-subtitle {
+	margin: 0;
+}
