@@ -1,0 +1,17 @@
+
+.associate-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+	@media screen and (max-width: $screen_large) {
+		display: block;
+		text-align: center;
+	}
+}
+
+.associate-entry {
+	margin: 12px;
+	& p {
+		white-space: pre;
+	}
+}
