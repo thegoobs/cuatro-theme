@@ -17,7 +17,7 @@
 	</div>
 
 {% else %}
-	<div class="hero-container hero-container-small">
+	<div class="hero-container hero-container-small" {% for hero in site.hero %} hero{{forloop.index}}="{{hero | absolute_url}}" {% endfor %}>
 		<h1>
 			{{ page.title }}
 		</h1>
