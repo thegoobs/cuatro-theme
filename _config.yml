@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
 Email: your-email@example.com
-Address: >-
-  3601 Kyle Crossing
+Address: |-
+  3601 Kyle Crossing, Suite A
   Kyle, Texas 78640
 Phone: (512) 312-5040
 Description: >- # this means to ignore newlines until "baseurl:"

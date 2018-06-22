@@ -1,11 +1,11 @@
 <footer>
 	<div class="footer-container">
 		<p>
-			{{site.Address}}
+			{{- site.Address | lstrip -}}
 			<br/>
-			{{site.Phone}}
+			{{- site.Phone -}}
 			<br/>
-			{{site.Email}}
+			{{- site.Email -}}
 		</p>
 		<p>
 			{{site.Description}}
