@@ -6,13 +6,3 @@
 .employee-entry p {
 	margin: 0;
 }
-
-.associate-container, .associate-group {
-	display: grid;
-	align-items: stretch;
-
-	@media screen and (max-width: $screen_medium) {
-		display: block;
-		text-align: center;
-	}
-}
