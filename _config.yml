@@ -30,10 +30,10 @@ github_username:  jekyll
 markdown: kramdown
 logo: assets/images/logo.png
 hero:
-  - images/hero/hero1.png
-  - images/hero/hero2.png
-  - images/hero/hero3.png
-  - images/hero/hero4.png
+  - assets/images/hero/hero1.png
+  - assets/images/hero/hero2.png
+  - assets/images/hero/hero3.png
+  - assets/images/hero/hero4.png
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

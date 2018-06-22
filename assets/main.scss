@@ -1,7 +1,7 @@
 ---
 ---
 {% if page.layout == "default" %}
-	$hero: url("{{ site.hero[0] }}");
+	$hero: url("{{ site.hero[1] }}");
 {% else %}
 	{% if page.hero %}
 		$hero: url("{{ page.hero }}");

@@ -1,6 +1,6 @@
 
 {% if page.layout == "default" %}
-	<div class="hero-container">
+	<div class="hero-container" {% for hero in site.hero %} hero{{forloop.index}}="{{hero | absolute_url}}" {% endfor %}>
 		<div class="hero-logo">
 			{% if site.logo %}
 				<img src="{{site.logo}}"/>
