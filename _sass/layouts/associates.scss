@@ -1,17 +1,18 @@
+.associate-entry {
+	& p {
+		white-space: pre;
+	}
+}
+.employee-entry p {
+	margin: 0;
+}
 
 .associate-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	align-items: stretch;
 
-	@media screen and (max-width: $screen_large) {
+	@media screen and (max-width: $screen_medium) {
 		display: block;
 		text-align: center;
-	}
-}
-
-.associate-entry {
-	margin: 12px;
-	& p {
-		white-space: pre;
 	}
 }
